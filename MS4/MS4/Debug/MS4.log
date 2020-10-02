@@ -1,0 +1,30 @@
+﻿  Book.cpp
+  Date.cpp
+  Magazine.cpp
+  Menu.cpp
+  ms4.cpp
+  ReadWriteable.cpp
+  Utils.cpp
+  Generating Code...
+Book.obj : error LNK2019: unresolved external symbol "protected: void __thiscall sdds::PubRecord::name(char const *)" (?name@PubRecord@sdds@@IAEXPBD@Z) referenced in function "public: class sdds::Book & __thiscall sdds::Book::operator=(class sdds::Book const &)" (??4Book@sdds@@QAEAAV01@ABV01@@Z)
+Magazine.obj : error LNK2001: unresolved external symbol "protected: void __thiscall sdds::PubRecord::name(char const *)" (?name@PubRecord@sdds@@IAEXPBD@Z)
+Book.obj : error LNK2019: unresolved external symbol "protected: char const * __thiscall sdds::PubRecord::name(void)const " (?name@PubRecord@sdds@@IBEPBDXZ) referenced in function "public: virtual void __thiscall sdds::Book::checkIn(void)" (?checkIn@Book@sdds@@UAEXXZ)
+Magazine.obj : error LNK2001: unresolved external symbol "protected: char const * __thiscall sdds::PubRecord::name(void)const " (?name@PubRecord@sdds@@IBEPBDXZ)
+Book.obj : error LNK2019: unresolved external symbol "public: __thiscall sdds::PubRecord::PubRecord(void)" (??0PubRecord@sdds@@QAE@XZ) referenced in function "public: __thiscall sdds::Book::Book(void)" (??0Book@sdds@@QAE@XZ)
+Magazine.obj : error LNK2001: unresolved external symbol "public: __thiscall sdds::PubRecord::PubRecord(void)" (??0PubRecord@sdds@@QAE@XZ)
+Book.obj : error LNK2019: unresolved external symbol "public: __thiscall sdds::PubRecord::PubRecord(class sdds::PubRecord const &)" (??0PubRecord@sdds@@QAE@ABV01@@Z) referenced in function "public: __thiscall sdds::Book::Book(class sdds::Book const &)" (??0Book@sdds@@QAE@ABV01@@Z)
+Magazine.obj : error LNK2001: unresolved external symbol "public: __thiscall sdds::PubRecord::PubRecord(class sdds::PubRecord const &)" (??0PubRecord@sdds@@QAE@ABV01@@Z)
+Book.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall sdds::PubRecord::~PubRecord(void)" (??1PubRecord@sdds@@UAE@XZ) referenced in function __unwindfunclet$??0Book@sdds@@QAE@ABV01@@Z$0
+Magazine.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall sdds::PubRecord::~PubRecord(void)" (??1PubRecord@sdds@@UAE@XZ)
+ms4.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall sdds::PubRecord::~PubRecord(void)" (??1PubRecord@sdds@@UAE@XZ)
+Book.obj : error LNK2019: unresolved external symbol "public: void __thiscall sdds::PubRecord::mediaType(int)" (?mediaType@PubRecord@sdds@@QAEXH@Z) referenced in function "public: class sdds::Book & __thiscall sdds::Book::operator=(class sdds::Book const &)" (??4Book@sdds@@QAEAAV01@ABV01@@Z)
+ms4.obj : error LNK2001: unresolved external symbol "public: void __thiscall sdds::PubRecord::mediaType(int)" (?mediaType@PubRecord@sdds@@QAEXH@Z)
+Book.obj : error LNK2019: unresolved external symbol "public: int __thiscall sdds::PubRecord::mediaType(void)const " (?mediaType@PubRecord@sdds@@QBEHXZ) referenced in function "public: class sdds::Book & __thiscall sdds::Book::operator=(class sdds::Book const &)" (??4Book@sdds@@QAEAAV01@ABV01@@Z)
+Magazine.obj : error LNK2001: unresolved external symbol "public: int __thiscall sdds::PubRecord::mediaType(void)const " (?mediaType@PubRecord@sdds@@QBEHXZ)
+Book.obj : error LNK2019: unresolved external symbol "public: int __thiscall sdds::PubRecord::shelfNo(void)const " (?shelfNo@PubRecord@sdds@@QBEHXZ) referenced in function "public: class sdds::Book & __thiscall sdds::Book::operator=(class sdds::Book const &)" (??4Book@sdds@@QAEAAV01@ABV01@@Z)
+Magazine.obj : error LNK2001: unresolved external symbol "public: int __thiscall sdds::PubRecord::shelfNo(void)const " (?shelfNo@PubRecord@sdds@@QBEHXZ)
+Book.obj : error LNK2019: unresolved external symbol "public: void __thiscall sdds::PubRecord::readShelfNo(void)" (?readShelfNo@PubRecord@sdds@@QAEXXZ) referenced in function "public: virtual class std::basic_istream<char,struct std::char_traits<char> > & __thiscall sdds::Book::read(class std::basic_istream<char,struct std::char_traits<char> > &)" (?read@Book@sdds@@UAEAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV34@@Z)
+Magazine.obj : error LNK2001: unresolved external symbol "public: void __thiscall sdds::PubRecord::readShelfNo(void)" (?readShelfNo@PubRecord@sdds@@QAEXXZ)
+ms4.obj : error LNK2019: unresolved external symbol "public: class sdds::PubRecord & __thiscall sdds::PubRecord::operator=(class sdds::PubRecord const &)" (??4PubRecord@sdds@@QAEAAV01@ABV01@@Z) referenced in function "public: class sdds::Magazine & __thiscall sdds::Magazine::operator=(class sdds::Magazine const &)" (??4Magazine@sdds@@QAEAAV01@ABV01@@Z)
+ms4.obj : error LNK2019: unresolved external symbol "public: __thiscall sdds::PubRecord::operator bool(void)const " (??BPubRecord@sdds@@QBE_NXZ) referenced in function "void __cdecl fileOut(class sdds::PubRecord * * const)" (?fileOut@@YAXQAPAVPubRecord@sdds@@@Z)
+C:\Users\Rene\OneDrive - Seneca College of Applied Arts & Technology\2nd fucking semester\OscarOscarPapa244\Workshop\OOP-Workshops-master\MS\MS4\MS4\Debug\MS4.exe : fatal error LNK1120: 11 unresolved externals
